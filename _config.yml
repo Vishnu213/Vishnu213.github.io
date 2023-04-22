@@ -1,5 +1,8 @@
 
-theme: jekyll-theme-quartz
+plugins:
+  - jekyll-remote-theme
+  
+ remote_theme: vfvong/jekyll-theme-quartz
 
 title: Quartz
 tagline: A crystalline Jekyll theme for blog
