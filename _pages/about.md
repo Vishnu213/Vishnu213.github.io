@@ -31,6 +31,12 @@ Outside work, I love watching Test match cricket and movies, playing table tenni
 - Software Development
 - Rapid Prototyping and Simulation
 
+## On-going Projects
+
+- Guidance and control of cubesat using aerodynamic forces for space debris characterization.
+  - News Abstract accepted for IAC 2024 MIlan
+- Open source simulator framework for Spaccecraft
+
 
 ## Work Experience
 
