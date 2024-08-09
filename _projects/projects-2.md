@@ -3,7 +3,6 @@ title: "Junior Project manager - Space mission design"
 excerpt: "Mars ice sample return mission<br/>
 <strong>June 2020 to April 2021</strong><br/>
 (PHOTO: @ESA)<br/><br/><img src='/images/Polispace.jpeg' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
-collection: projects
 category: "SMD"
 ---
 
