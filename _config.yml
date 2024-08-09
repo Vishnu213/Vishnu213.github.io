@@ -215,6 +215,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  Current projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
