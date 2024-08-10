@@ -34,7 +34,7 @@ Outside work, I love watching Test match cricket and movies, playing table tenni
 ## On-going Projects
 
 - Guidance and control of cubesat using aerodynamic forces for space debris characterization.
-  - Update: Abstract accepted for IAC 2024 MIlan
+  - **Update**: [Abstract accepted for IAC 2024 Milan](https://iafastro.directory/iac/paper/id/88922/abstract-pdf/IAC-24,C1,3,9,x88922.brief.pdf?2024-04-01.00:02:34)
 - Open source simulator framework for Spaccecraft
 
 
