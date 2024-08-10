@@ -8,6 +8,10 @@ excerpt: "<p>Master thesis at Politecnico di Milano<br/>
 "
 collection: projects
 category: "GNC"
+tags:
+  - Work efficiency
+  - Daily tips
+  - Presence of Mind
 # permalink: /projects/past/
 ---
 

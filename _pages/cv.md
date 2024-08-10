@@ -7,11 +7,9 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Here is my CV
 
-<style>9*
+<style>
   .pdf-iframe-container {
     position: relative;
     width: 100%;

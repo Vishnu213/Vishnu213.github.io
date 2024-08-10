@@ -5,6 +5,10 @@ excerpt: "Excellent experience disparsing knowledge to students<br/>
 (PHOTO: @ESSERD)<br/><img src='/images/SSERD.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
 collection: projects
 category: "GNC"
+tags:
+  - Work efficiency
+  - Daily tips
+  - Presence of Mind
 # permalink: /projects/past/
 ---
 

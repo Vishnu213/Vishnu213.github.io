@@ -215,6 +215,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  cv:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -275,6 +278,14 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: cv
     values:
       layout: single
       author_profile: true
