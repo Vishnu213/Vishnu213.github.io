@@ -9,6 +9,9 @@ tags:
   - Work efficiency
   - Daily tips
   - Presence of Mind
+  - Work efficiency
+  - Daily tips
+  - Presence of Mind
 ---
 
 I was part of the University space club called “[Polispace](https://polispace.it/)” as a Junior project manager. In this position, I handled a team of 10 undergraduates working towards the AIAA space mission design competition. I was responsible for providing them with necessary knowledge and skills to deal with space mission design. Here is aa video of me presenting the team to the youtube live audience on the launch day of Polispace.

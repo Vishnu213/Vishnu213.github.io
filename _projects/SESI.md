@@ -8,6 +8,12 @@ excerpt: "<p>This project is part of Estimation in Aerospace coursework taught b
 "
 collection: projects
 category: "SDC"
+tags:
+  - System Identification
+  - State estimation
+  - Grey box model
+  - Cramer Rao bound
+  - Output error method
 # permalink: /projects/current/
 ---
 
