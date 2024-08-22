@@ -11,35 +11,88 @@ Here, I have listed some of the projects that I have worked on until now.
 <br />
 <br />
 
-<h1>Space Mission Design</h1>
+<div class="accordion" id="projectAccordion">
+    <!-- Space Mission Design -->
+    <div class="card">
+        <div class="card-header" id="headingSMD">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSMD"
+                    aria-expanded="true" aria-controls="collapseSMD">
+                    Space Mission Design
+                </button>
+            </h2>
+        </div>
+        <div id="collapseSMD" class="collapse show" aria-labelledby="headingSMD" data-parent="#projectAccordion">
+            <div class="card-body">
+                {% for post in site.projects %}
+                {% if post.category == "SMD" %}
+                {% include archive-single_custom.html %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
-{% for post in site.projects %}
-{% if post.category == "SMD" %}
-{% include archive-single_custom.html %}
-{% endif %}
-{% endfor %}
+    <!-- Space Dynamics and Control -->
+    <div class="card">
+        <div class="card-header" id="headingSDC">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSDC"
+                    aria-expanded="false" aria-controls="collapseSDC">
+                    Space Dynamics and Control
+                </button>
+            </h2>
+        </div>
+        <div id="collapseSDC" class="collapse" aria-labelledby="headingSDC" data-parent="#projectAccordion">
+            <div class="card-body">
+                {% for post in site.projects %}
+                {% if post.category == "SDC" %}
+                {% include archive-single_custom.html %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
-<h1>Space Dynamics and Control</h1>
+    <!-- Spacecraft GNC -->
+    <div class="card">
+        <div class="card-header" id="headingGNC">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGNC"
+                    aria-expanded="false" aria-controls="collapseGNC">
+                    Spacecraft GNC
+                </button>
+            </h2>
+        </div>
+        <div id="collapseGNC" class="collapse" aria-labelledby="headingGNC" data-parent="#projectAccordion">
+            <div class="card-body">
+                {% for post in site.projects %}
+                {% if post.category == "GNC" %}
+                {% include archive-single_custom.html %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
-{% for post in site.projects %}
-{% if post.category == "SDC" %}
-{% include archive-single_custom.html %}
-{% endif %}
-{% endfor %}
-
-
-<h1>Spacecraft GNC</h1>
-
-{% for post in site.projects %}
-{% if post.category == "GNC" %}
-{% include archive-single_custom.html %}
-{% endif %}
-{% endfor %}
-
-<h1>Teaching and mentoring</h1>
-
-{% for post in site.projects %}
-{% if post.category == "MEN" %}
-{% include archive-single_custom.html %}
-{% endif %}
-{% endfor %}
+    <!-- Teaching and Mentoring -->
+    <div class="card">
+        <div class="card-header" id="headingMEN">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseMEN"
+                    aria-expanded="false" aria-controls="collapseMEN">
+                    Teaching and Mentoring
+                </button>
+            </h2>
+        </div>
+        <div id="collapseMEN" class="collapse" aria-labelledby="headingMEN" data-parent="#projectAccordion">
+            <div class="card-body">
+                {% for post in site.projects %}
+                {% if post.category == "MEN" %}
+                {% include archive-single_custom.html %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
