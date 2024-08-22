@@ -9,55 +9,63 @@ redirect_from:
 
 # Hi there! 👋
 
-I am an aspiring researcher in the field of Guidance, Control, and Navigations. Specifically, my interest is to be involved in space technology and its applications. Currently, I am working as a Research Assistant at the University of Trento in the [Simulation and Virtual Reality Lab](https://www.dii.unitn.it/en/401/simulators-and-virtual-reality). 
+I am an aspiring researcher in the field of Guidance, Control, and Navigation, with a strong interest in space technology and its applications. Currently, I am working as a Research Assistant at the University of Trento in the [Simulation and Virtual Reality Lab](https://www.dii.unitn.it/en/401/simulators-and-virtual-reality){:target="_blank"}.
 
-I also co-founded a private research group that aims at solving problems in the field of [Space dynamcis control and system engineering](https://sdcsgroup.mobirisesite.com/home.html). 
+I also co-founded a private research group that aims at solving problems in the field of [Space Dynamics Control and System Engineering](https://sdcsgroup.mobirisesite.com/home.html){:target="_blank"}. 
 
-Previously, I worked as a software developer in rapid prototyping of advanced driver assistance systems at the Center for research, FIAT (present Stellantis) and as a R & D System validation engineer at Electrolux.
+Previously, I worked as a software developer in rapid prototyping of advanced driver assistance systems at the Center for Research, FIAT (present Stellantis), and as an R&D System Validation Engineer at Electrolux.
 
-Outside work, I love watching Test match cricket and movies, playing table tennis. Currently trying my luck with Snowboarding in the Alpine mountains.
+Outside work, I enjoy watching Test match cricket, playing table tennis, and trying my luck with snowboarding in the Alpine mountains.
 
+---
 
-## My research style:
-- My personal preference is to involve myself in a research style that balances mathematical rigor and engineering applications. 
-- I am a strong believer of collobaration and teamwork. I actively participate in discussing the progress or research questions i have with my colleagues and look towards understanding their perspective.
+## 🎓 My Research Style
 
-## My Interests
+- My personal preference is to involve myself in a research style that balances mathematical rigor and engineering applications.
+- I am a strong believer of collaboration and teamwork. I actively participate in discussing the progress or research questions I have with my colleagues and look towards understanding their perspective.
 
-- Spacecraft Guidance, Navigation and Control
-- Control systems
-- Trajectory Optimization
-- Spacecraft Mission Design
-- Software Development
-- Rapid Prototyping and Simulation
+---
 
-## On-going Projects
+## 🔭 My Interests
 
-- Guidance and control of cubesat using aerodynamic forces for space debris characterization.
-  - **Update**: [Abstract accepted for IAC 2024 Milan](https://iafastro.directory/iac/paper/id/88922/abstract-pdf/IAC-24,C1,3,9,x88922.brief.pdf?2024-04-01.00:02:34)
-- Open source simulator framework for Spaccecraft
+- **Spacecraft Guidance, Navigation, and Control**
+- **Control Systems**
+- **Trajectory Optimization**
+- **Spacecraft Mission Design**
+- **Software Development**
+- **Rapid Prototyping and Simulation**
 
+---
 
-## Work Experience
+## 🚀 On-going Projects
 
-- **May 2024 - Present** - Research Assistant - Research grant PRIN 2022, University of Trento, Italy
-- **June 2023 - Feb 2024** - R&D System Validation Engineer at Electrolux, Italy
-- **Sep 2022 - June 2023** - Software Developer for ADAS at Stellantis, Italy
-- **Dec 2021 - Apr 2022** - Freelancing Content Writer and Researcher (remote), Poland
+- **Guidance and Control of CubeSat using Aerodynamic Forces for Space Debris Characterization**
+  - **Update:** [Abstract accepted for IAC 2024 Milan](https://iafastro.directory/iac/paper/id/88922/abstract-pdf/IAC-24,C1,3,9,x88922.brief.pdf?2024-04-01.00:02:34){:target="_blank"}
+- **Open Source Simulator Framework for Spacecraft**
 
-## Education
+For more details on my previous projects, please visit the [Projects section](/projects/).
 
-- **Politecnico di Milano**, 2018 to 2021  
-  Master of Science in Space Engineering
-  
-  **Main area of study** : Orbital mechanics, Modeling and simulation, Space mission design, Spacecraft GNC.
+---
 
-- **Alliance University**, 2013 to 2017  
-  Bachelor of Technology in Aerospace Engineering
+## 💼 Work Experience
 
-  **Main area of study** : Aerodynamics, Thermodynamics, Spacecraft design, Classical control
+- **Research Assistant - Research Grant PRIN 2022, University of Trento, Italy**
+  - _May 2024 - Present_
+- **R&D System Validation Engineer, Electrolux, Italy**
+  - _June 2023 - Feb 2024_
+- **Software Developer for ADAS, Stellantis, Italy**
+  - _Sep 2022 - June 2023_
+- **Freelancing Content Writer and Researcher (Remote), Poland**
+  - _Dec 2021 - Apr 2022_
 
+---
 
-  <!-- [Visit My About Page](Academic_projects.md) -->
+## 🎓 Education
 
+- **Politecnico di Milano**
+  - _Master of Science in Space Engineering, 2018 to 2021_
+  - **Focus Areas:** Orbital Mechanics, Modeling and Simulation, Space Mission Design, Spacecraft GNC
 
+- **Alliance University**
+  - _Bachelor of Technology in Aerospace Engineering, 2013 to 2017_
+  - **Focus Areas:** Aerodynamics, Thermodynamics, Spacecraft Design, Classical Control
