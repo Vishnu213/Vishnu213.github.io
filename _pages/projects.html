@@ -7,67 +7,25 @@ author_profile: true
 
 {% include base_path %}
 
-Here, you will find projects categorized by their respective domain/expertise.
-Click on the project title to view more details.
+Here, I have listed some of the projects I have worked on. The projects are categorized into four categories: Spacecraft
+GNC, Space Dynamics and Control, Space Mission Design, and Teaching and Mentoring.
+Click on the category to view the projects in that category.
+<br />
 <br />
 
-<br />
-
-<div class="accordion" id="projectAccordion">
-    <!-- Space Mission Design -->
-    <div class="card">
-        <div class="card-header" id="headingSMD">
-            <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSMD"
-                    aria-expanded="true" aria-controls="collapseSMD">
-                    Space Mission Design
-                </button>
-            </h2>
-        </div>
-        <div id="collapseSMD" class="collapse show" aria-labelledby="headingSMD" data-parent="#projectAccordion">
-            <div class="card-body">
-                {% for post in site.projects %}
-                {% if post.category == "SMD" %}
-                {% include archive-single_custom.html %}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-
-    <!-- Space Dynamics and Control -->
-    <div class="card">
-        <div class="card-header" id="headingSDC">
-            <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSDC"
-                    aria-expanded="false" aria-controls="collapseSDC">
-                    Space Dynamics and Control
-                </button>
-            </h2>
-        </div>
-        <div id="collapseSDC" class="collapse" aria-labelledby="headingSDC" data-parent="#projectAccordion">
-            <div class="card-body">
-                {% for post in site.projects %}
-                {% if post.category == "SDC" %}
-                {% include archive-single_custom.html %}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-
+<div id="projects-page" class="accordion">
     <!-- Spacecraft GNC -->
     <div class="card">
-        <div class="card-header" id="headingGNC">
+        <div class="card-header" id="headingGNC" style="background-color: #333; color: #fff;">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGNC"
-                    aria-expanded="false" aria-controls="collapseGNC">
+                <button class="btn btn-link category-btn collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseGNC" aria-expanded="false" aria-controls="collapseGNC" style="color: #fff;">
                     Spacecraft GNC
                 </button>
             </h2>
         </div>
-        <div id="collapseGNC" class="collapse" aria-labelledby="headingGNC" data-parent="#projectAccordion">
-            <div class="card-body">
+        <div id="collapseGNC" class="collapse" aria-labelledby="headingGNC" data-parent="#projects-page">
+            <div class="card-body" style="background-color: #f8f9fa; color: #000;">
                 {% for post in site.projects %}
                 {% if post.category == "GNC" %}
                 {% include archive-single_custom.html %}
@@ -77,18 +35,60 @@ Click on the project title to view more details.
         </div>
     </div>
 
+    <!-- Space Dynamics and Control -->
+    <div class="card">
+        <div class="card-header" id="headingSDC" style="background-color: #333; color: #fff;">
+            <h2 class="mb-0">
+                <button class="btn btn-link category-btn collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseSDC" aria-expanded="false" aria-controls="collapseSDC" style="color: #fff;">
+                    Space Dynamics and Control
+                </button>
+            </h2>
+        </div>
+        <div id="collapseSDC" class="collapse" aria-labelledby="headingSDC" data-parent="#projects-page">
+            <div class="card-body" style="background-color: #f8f9fa; color: #000;">
+                {% for post in site.projects %}
+                {% if post.category == "SDC" %}
+                {% include archive-single_custom.html %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Space Mission Design -->
+    <div class="card">
+        <div class="card-header" id="headingSMD" style="background-color: #333; color: #fff;">
+            <h2 class="mb-0">
+                <button class="btn btn-link category-btn collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseSMD" aria-expanded="false" aria-controls="collapseSMD" style="color: #fff;">
+                    Space Mission Design
+                </button>
+            </h2>
+        </div>
+        <div id="collapseSMD" class="collapse" aria-labelledby="headingSMD" data-parent="#projects-page">
+            <div class="card-body" style="background-color: #f8f9fa; color: #000;">
+                {% for post in site.projects %}
+                {% if post.category == "SMD" %}
+                {% include archive-single_custom.html %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
     <!-- Teaching and Mentoring -->
     <div class="card">
-        <div class="card-header" id="headingMEN">
+        <div class="card-header" id="headingMEN" style="background-color: #333; color: #fff;">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseMEN"
-                    aria-expanded="false" aria-controls="collapseMEN">
+                <button class="btn btn-link category-btn collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseMEN" aria-expanded="false" aria-controls="collapseMEN" style="color: #fff;">
                     Teaching and Mentoring
                 </button>
             </h2>
         </div>
-        <div id="collapseMEN" class="collapse" aria-labelledby="headingMEN" data-parent="#projectAccordion">
-            <div class="card-body">
+        <div id="collapseMEN" class="collapse" aria-labelledby="headingMEN" data-parent="#projects-page">
+            <div class="card-body" style="background-color: #f8f9fa; color: #000;">
                 {% for post in site.projects %}
                 {% if post.category == "MEN" %}
                 {% include archive-single_custom.html %}

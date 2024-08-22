@@ -39,15 +39,3 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-#projectAccordion .accordion .card-header {
-    background-color: #333 !important; /* Force the background color */
-    color: #fff !important; /* Force the text color */
-}
-
-#projectAccordion .accordion .card-header .btn-link {
-    color: #fff !important; /* Force the text color */
-}
-
-#projectAccordion .accordion .card-header .btn-link:hover {
-    color: #ccc !important; /* Force the hover color */
-}
