@@ -4,7 +4,7 @@ excerpt: "Mars ice sample return mission<br/>
 <strong>June 2020 to April 2021</strong><br/>
 (PHOTO: @ESA)<br/><br/><img src='/images/Polispace.jpeg' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
 collection: projects
-category: "SMD"
+category: "MEN"
 tags:
   - Work efficiency
   - Daily tips
@@ -12,6 +12,8 @@ tags:
   - Work efficiency
   - Daily tips
   - Presence of Mind
+  - Space mission design
+  - Mars ice sample return
 ---
 
 I was part of the University space club called “[Polispace](https://polispace.it/)” as a Junior project manager. In this position, I handled a team of 10 undergraduates working towards the AIAA space mission design competition. I was responsible for providing them with necessary knowledge and skills to deal with space mission design. Here is aa video of me presenting the team to the youtube live audience on the launch day of Polispace.

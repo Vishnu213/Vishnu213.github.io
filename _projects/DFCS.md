@@ -8,6 +8,15 @@ excerpt: "<p>Part of Attitude dynamics and control system coursework @Polimi<br/
 "
 collection: projects
 category: "SDC"
+tags:
+  - Gauss planetary equations
+  - Orbital mechanics
+  - Numerical integration
+  - Numerical stability
+  - Taylor series
+  - Sensitivity analysis
+  - Spacecraft modeling and simulation
+  - Control system
 # permalink: /projects/current/
 ---
 

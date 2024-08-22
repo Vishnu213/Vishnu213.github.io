@@ -9,6 +9,14 @@ excerpt: "<p>Part of Attitude dynamics and control system coursework @Polimi<br/
 collection: projects
 category: "SDC"
 # permalink: /projects/current/
+tags:
+  - ADCS
+  - Attitude representation
+  - Quaternions
+  - Direction cosine matrix
+  - Lyaponav direct method
+  - Attitude controller
+  - Spacecraft attitude dynamics
 ---
 
 # Cubesat Attitude Control System
@@ -35,14 +43,6 @@ Lyapunov direct method was employed to derive the control law for both detumblin
 The control parameters were tuned according to the mission requirements.
 
 The entire simulation was carried out using Matlab and Simulink.
-
-## Keywords
-
-- Attitude Control System
-- Rigid Body Dynamics
-- Lyapunov Direct Method
-- Control System Design
-- Modeling and Simulation
 
 
 

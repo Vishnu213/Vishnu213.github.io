@@ -4,7 +4,7 @@ excerpt: "Excellent experience disparsing knowledge to students<br/>
 <strong>June 2020 to April 2021</strong><br/>
 (PHOTO: @ESSERD)<br/><img src='/images/SSERD.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
 collection: projects
-category: "GNC"
+category: "MEN"
 tags:
   - Work efficiency
   - Daily tips

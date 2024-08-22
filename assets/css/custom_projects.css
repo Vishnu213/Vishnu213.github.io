@@ -1,0 +1,13 @@
+/* assets/css/custom.css */
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}

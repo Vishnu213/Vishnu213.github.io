@@ -1,5 +1,5 @@
 ---
-title: "OM project"
+title: "Preliminary Interplanetary trajectory optimization"
 excerpt: "<p>This project is part of Estimation in Aerospace coursework taught by prof. Marco Lovera  at Polimi.<br/>
 <strong>Dec 2019 to Feb 2020</strong><br/>
 (PHOTO: @ESA)<br/>
@@ -17,14 +17,22 @@ tags:
 # permalink: /projects/current/
 ---
 
+This project had two tasks. First task involves finding a **optimal trajectory** using impulsive manuever to go from Mars to Mercury via gravity assist around Earth for scientific mission. Second task is a orbital analysis of a MEO orbit in the presence of Earth oblateness and Moon gravitational effects.  
+
 ## Trajectory optimizatiion:
 
-Models that we use in our application sometimes are assumed to be available to us, but in reality, every dynamic model parameter, if not for the simple cases, has to be estimated via empirical methods. For example, the exact inertia of the satellite or helicopter has to be estimated empirically. Given the importance of finding the parameters of the dynamic model, in this project a well known method called output error method is applied. The dynamic model considered was the lateral dynamic model (greybox model) of the drone that is inherently unstable, due to this reason, frequency based output error method is utilized. I know, I right-away using the term “output error method” as if everyone in this world knows about it. Actually, it simply fits a model that minimizes the error between the actual output and model’s output. In matlab, you can use the “greyest“ function to use the OE method for grey box models. 
+A patched conic approach was used to model the interplanetary trajectory optimization proble. There are three Delta_V that are present, first manauver is at the departure point (Mars), another one is corrective manauver to support gravity assist at Earth and last one is at Mercury. Porkshop plots were used as the main tool to find the optimal Delta_V manuver for the given timeslot. An example porkchop plot is shown in the figure below, it is a 3-D plot with DEPARTURE, FLYBY, ARRIVAL times on its axis.
+<img src="/images/pork_chop_1.png" alt="Pork Chop plot" />
+*Figure 1: Scattered PorkChop plot*
 
-After estimating the model using the greyest function, we validated the model with experiment data. With Monte Carlo simulation, we were able to see that within the fixed variance of the estimated parameters, we were able to observe that the system was stable. 
+To find the best possible Delta_V combination, a simple **triple for loop** is used to find the minimal overal Delta_V. Before going for the triple for loop, 12 year period was pruned via trail and error to find out the timeslot that at the first-go gives the indication of possible optimal trajectory. After selecting the time slot, triple for loop is run with smaller time discretization points along with the genetic algorithm to obtain the refined trajectory. 
 
-## Perturbation analysis.
+The final interplanetary trajectory is shown in the figure below:
 
-With the estimated model. We wanted to estimate the lateral velocity using the measurements coming from an inertial sensor. With the Kalman filter both custom implemented and matlab versions are applied to the problem and validated with real data.
+<img src="/images/Interplanetary_trajectory.png" alt="Interplanetary_trajectory.png" />
+*Figure 2: Best Delta_V Interplanetary trajectory*
 
-For more information please consult this presentation.
+
+
+## Perturbation analysis:
+Prelimary Orbital analysis was conducted with Earth oblateness and Moon third body perturbations. The orbit considered was a MEO orbit that experiences perturbation from both Earth oblateness and Moon gravitation force. Guass plantary equation and carterian equation of motion is used to simulate the orbit. 
