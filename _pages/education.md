@@ -1,5 +1,3 @@
-## 🎓 Education
-
 - **Politecnico di Milano**
   - _Master of Science in Space Engineering, 2018 to 2021_
   - **Focus Areas:** Orbital Mechanics, Modeling and Simulation, Space Mission Design, Spacecraft GNC

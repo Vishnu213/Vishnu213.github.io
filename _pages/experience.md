@@ -1,5 +1,3 @@
-## 💼 Work Experience
-
 - **Research Assistant - Research Grant PRIN 2022, University of Trento, Italy**
   - _May 2024 - Present_
 - **R&D System Validation Engineer, Electrolux, Italy**
