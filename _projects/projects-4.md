@@ -1,14 +1,30 @@
 ---
-title: "Co-Founder and group leader: Spacecraft dynamics control and system engineer"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/In-Orbit_Servicing_Target_inspection.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
+title: "Guidance and control for aerodynamic based nanosat
+multi-static SAR formation flying mission aimed at sub-milli-meterspace debris characterization
+"
+excerpt: "Part of SDCS research projects<br/><img src='/images/In-Orbit_Servicing_Target_inspection.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
 collection: projects
 category: "GNC"
 # permalink: /projects/past/
 ---
 
-I was part of the University space club called “Polispace” as a Junior project manager. In this position, I handled a team of 10 undergraduates working towards the AIAA space mission design competition. I was responsible for providing them with necessary knowledge and skills to deal with space mission design. Here is video of me presenting the team to the youtube live aundience on the launch day of Polispace.
-[![YouTube Video](https://img.youtube.com/vi/NayfMR8_Zts/0.jpg)](https://www.youtube.com/watch?v=NayfMR8_Zts&start=1128&end=1408)
 
-Please use this link for full video [Watch the full video](https://www.youtube.com/watch?v=NayfMR8_Zts&t=1417s)
+## Background:
 
-Particularly, I was teaching and directing them with AOCS, Orbital mechanics and System engineering aspects. The team successfully finished the project and published a conference paper on [International Astronautical Congress 2021 Dubai](https://www.researchgate.net/publication/355856339_Phase-A_Design_of_ICE_CREAM_a_cost-effective_Mars_Sample_Return_Mission).
+Characterizing debris and micrometeoroids of the sub-millimeter size in the LEO region is not possible by using ground-based sensors. This demands in situ characterization, and to make this characterization cost-effective, a nanosat formation flying mission looks attractive. However, because of size, weight, and power (SWAP) constraints, the possibility of using perturbation forces without using an active thruster system for position control alleviates the constraints on SWAP.
+
+## Problem Statement:
+To design a nanosat formation that enables characterization of sub-millimeter size objects in LEO using only the aerodynamic forces.
+
+## Challenges Posed by Aerodynamic Force Based Control:
+
+- Formation flying mission imposes strict constraints to maintain the baseline required for radar sensing.
+- Limited control authority directly influences the position accuracy we can achieve.
+- Uncertainty in the density has to be accounted for.
+- Translation and attitude motions are inherently coupled.
+
+Please find the related codes in this repo. [ADD THE GITHUB LINK HERE]
+
+I will update this page as soon as I get more updates.
+
+

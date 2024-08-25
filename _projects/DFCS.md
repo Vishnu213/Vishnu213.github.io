@@ -20,7 +20,7 @@ tags:
 # permalink: /projects/current/
 ---
 
-This project is part of Modeling and SImulation coursework at Polimi.
+This project is part of Modeling and Simulation coursework at Polimi.
 Project aims to model and simulate single uni-directional drag control of the GOCE spacecraft. Essentially the spacecraft was tasked to measure the gravity at very high accurate scales, this requires negation of drag forces experienced by the spacecraft in its orbit. 
 
 You will see below the different dynamics systems modeled. The physical controller is the valve diameter, we control this to control the flow of fuel to the electric thruster. By doing so, we are able to compensate for aerodynamic drag.

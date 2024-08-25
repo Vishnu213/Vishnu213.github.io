@@ -21,7 +21,7 @@ This project had two tasks. First task involves finding a **optimal trajectory**
 
 ## Trajectory optimizatiion:
 
-A patched conic approach was used to model the interplanetary trajectory optimization proble. There are three Delta_V that are present, first manauver is at the departure point (Mars), another one is corrective manauver to support gravity assist at Earth and last one is at Mercury. Porkshop plots were used as the main tool to find the optimal Delta_V manuver for the given timeslot. An example porkchop plot is shown in the figure below, it is a 3-D plot with DEPARTURE, FLYBY, ARRIVAL times on its axis.
+A patched conic approach was used to model the interplanetary trajectory optimization problem. There are three Delta_V that are present, first manauver is at the departure point (Mars), another one is corrective manauver to support gravity assist at Earth and last one is at Mercury. Porkshop plots were used as the main tool to find the optimal Delta_V manuver for the given timeslot. An example porkchop plot is shown in the figure below, it is a 3-D plot with DEPARTURE, FLYBY, ARRIVAL times on its axis.
 <img src="/images/pork_chop_1.png" alt="Pork Chop plot" />
 *Figure 1: Scattered PorkChop plot*
 
