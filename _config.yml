@@ -21,7 +21,7 @@ repository               : "Vishnu213.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "picture.png"
+  avatar           : "Profile_pic.png"
   name             : "Vishnuvardhan Shakthibala"
   pronouns         : # example: "she/her"  
   bio              : "Post graduate research assistant at Simulation and Virtual reality lab, University of Trento, Italy"
