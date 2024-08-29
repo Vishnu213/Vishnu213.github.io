@@ -1,6 +1,6 @@
 ---
 title: "Asteroid Redirection with Gravity tractoring and Observation (ARGO)"
-excerpt: "A preliminary space mission design to demonstrator usage of gravity traction for planetary protection<br/><img src='/images/ARGO.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
+excerpt: "A preliminary space mission design to demonstrate the usage of gravity traction for planetary protection<br/><img src='/images/ARGO.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
 collection: projects
 category: "SMD"
 # permalink: /projects/past/
