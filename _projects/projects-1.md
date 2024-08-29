@@ -14,10 +14,10 @@ tags:
   - Presence of Mind
 # permalink: /projects/past/
 ---
+<br/>
+## Spacecraft Inspection mission
 
-# Spacecraft Inspection mission
-
-Spacecraft inspection is a critical phase in various on-orbit servicing (OOS) missions, which are increasingly important as the commercial space sector continues to grow. These missions are essential for maintaining, repairing, and extending the life of satellites and other spacecraft, particularly those in geostationary orbit, where the space available is limited and highly valuable. By performing inspections, spacecraft can gather crucial data about the physical state of a target object, including its ...
+Spacecraft inspection is a critical phase in various on-orbit servicing (OOS) missions, which are increasingly important as the commercial space sector continues to grow. These missions are essential for maintaining, repairing, and extending the life of satellites and other spacecraft, particularly those in geostationary orbit, where the space available is limited and highly valuable. By performing inspections, spacecraft can gather crucial data about the physical state of a target object, including its position, orientation, and operational status. This information is vital for subsequent operations like refueling, repair, or repositioning, making the inspection problem a foundational element of successful OOS missions.
 
 <div style="text-align: center;">
     <img src="/images/PROXIMITY.png" alt="Proximity Operation Scenarios" style="width:50%; height:auto;">

@@ -1,6 +1,8 @@
 ---
 title: "Asteroid Redirection with Gravity tractoring and Observation (ARGO)"
-excerpt: "A preliminary space mission design to demonstrate the usage of gravity traction for planetary protection<br/><img src='/images/ARGO.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
+excerpt: "A preliminary space mission design to demonstrate the usage of gravity traction for planetary protection - part of Space mission design course @Polimi supervised by Prof. Michele Lavagna
+<br/>
+<strong>Feb 2020 to June 2020</strong><br/><br/><img src='/images/ARGO.png' width='200' height='150' alt='In-Orbit Servicing Target Inspection'>"
 collection: projects
 category: "SMD"
 # permalink: /projects/past/
@@ -12,9 +14,20 @@ tags:
   - Feasibility study
 ---
 
-I was part of the University space club called “Polispace” as a Junior project manager. In this position, I handled a team of 10 undergraduates working towards the AIAA space mission design competition. I was responsible for providing them with necessary knowledge and skills to deal with space mission design. Here is video of me presenting the team to the youtube live aundience on the launch day of Polispace.
-[![YouTube Video](https://img.youtube.com/vi/NayfMR8_Zts/0.jpg)](https://www.youtube.com/watch?v=NayfMR8_Zts&start=1128&end=1408)
+This project is a phase A feasibility study on the an innovative space mission called ARGO. Following is a brief summary of the mission and my role.
 
-Please use this link for full video [Watch the full video](https://www.youtube.com/watch?v=NayfMR8_Zts&t=1417s)
+## Summary
 
-Particularly, I was teaching and directing them with AOCS, Orbital mechanics and System engineering aspects. The team successfully finished the project and published a conference paper on [International Astronautical Congress 2021 Dubai](https://www.researchgate.net/publication/355856339_Phase-A_Design_of_ICE_CREAM_a_cost-effective_Mars_Sample_Return_Mission).
+The Asteroid Redirection with Gravity tractoring and Observation (ARGO) mission is a planetary defense initiative designed to test gravity traction techniques on a binary Near-Earth Asteroid system, specifically targeting the 162000 (1990 OS) system. This mission aims to assess the effectiveness of the gravity tractor (GT) method for mitigating potential Earth impact hazards by altering the orbit of the asteroid's secondary body. The mission involves a low-thrust transfer trajectory using ion propulsion technology, followed by a series of close-proximity operations to characterize both the primary asteroid and its moonlet.
+
+
+## My contribution 
+
+In my role, I contributed significantly to the success of this mission by developing the On-Board Data Handling (OBDH) system, defining payload requirements, and conducting an extensive literature survey. Through analyzing the payloads, I was able to provide critical input to the mission analysis team, particularly in determining the necessary trajectory distance to effectively characterize the target. My literature research offered a solid starting point for the mission's development, guiding the team to develop the mission based on previous mission results.
+
+The OBDH system was developed keeping mind the data processing and storage needs during the mission, particularly during the characterization and proximity operations phases. Additionally, my work in defining payload requirements ensured that the instruments could meet the mission’s demands, such as capturing high-resolution images for detailed observation of the asteroid system.
+
+Throughout the project, I interacted with all subsystems, offering auxiliary support to ensure seamless integration and coordination across the team. 
+
+For more information, please refer to the [presentation](https://drive.google.com/file/d/1gwv059kXdZOuBmjhSiY-tjzLgYKQpcdt/view?usp=sharing){:target="_blank"}
+
