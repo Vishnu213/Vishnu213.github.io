@@ -9,9 +9,12 @@ excerpt: "<p>Master thesis at Politecnico di Milano<br/>
 collection: projects
 category: "GNC"
 tags:
-  - Work efficiency
-  - Daily tips
-  - Presence of Mind
+  - Inspection mission
+  - Proximity operation
+  - On-orbit servicing mission
+  - Autonomous guidance
+  - Relative motion
+  - Motion planning algorithm
 # permalink: /projects/past/
 ---
 <br/>
