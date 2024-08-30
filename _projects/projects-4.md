@@ -23,7 +23,7 @@ To design a nanosat formation that enables characterization of sub-millimeter si
 - Uncertainty in the density has to be accounted for.
 - Translation and attitude motions are inherently coupled.
 
-Please find the related codes in this repo. [ADD THE GITHUB LINK HERE]
+Please find the related codes in this [github repo](https://github.com/Vishnu213/Nanosat_FF_mission){{:target="_blank"}}. 
 
 I will update this page as soon as I get more updates.
 

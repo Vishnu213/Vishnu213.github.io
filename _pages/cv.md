@@ -30,5 +30,5 @@ Here is my CV
 </style>
 
 <div class="pdf-iframe-container">
-  <iframe src="/files/CV_VVS.pdf"></iframe>
+  <iframe src="/files/CV_09_2024.pdf"></iframe>
 </div>
